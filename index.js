@@ -34,7 +34,6 @@ async function run() {
     await client.connect();
 
     const ShopCardCollection = client.db('Star_Sport').collection('cards');
-    // const selectedTutorCollection = client.db('Learn_Langauge').collection('selected_Tutor');
 
 
 
